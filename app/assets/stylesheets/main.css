@@ -6,21 +6,15 @@ body {
 }
 .navbar-header {
   background-color: rgba(0,0,0,0);
- 
-}
-#bs-example-navbar-collapse-1{
- background-color: rgba(0,0,0,0);
- text-align: right;
 }
 .navbar {
-background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0);
 }
 .container-fluid {
   background-color: rgba(0,0,0,0);
 }
 .container-fluid.collapse.navbar-collapse {
   background-color: rgba(0,0,0,0);
-
 }
 .nav {
   background-color: rgba(0,0,0,0);
@@ -32,3 +26,57 @@ background-color: rgba(0,0,0,0);
 .navbar-collapse.collapse.in {
   text-align: right;
 }
+#bs-example-navbar-collapse-1{
+  background-color: rgba(0,0,0,0);
+  text-align: right;
+}
+
+.footer {
+  text-align : left;
+  position   :absolute;
+  bottom     :0;
+  left       :0;
+  display    : inline-block;
+  margin     : 1em;
+  margin-left: 1em;
+}
+.footer a {
+  display    : inline-block;
+  margin-left: 1em;
+  color      : #fff;
+  text-shadow: 1px 1px 1px #333;
+}
+.footer a:hover {
+  text-decoration: none;
+}
+#social {
+  position    : absolute;
+  text-align  : right;
+  bottom      : 0;
+  right       : 0;
+  margin      : 1.3em;
+  margin-right: 2em;
+  opacity: 0.3;
+}
+#social:hover {
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
