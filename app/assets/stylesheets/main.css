@@ -43,11 +43,14 @@ body {
 .footer a {
   display    : inline-block;
   margin-left: 1em;
-  color      : #fff;
-  text-shadow: 1px 1px 1px #333;
+  color      : #999;
+ /* text-shadow: 1px 0px 0px #333;*/
+  font-style: normal;
 }
 .footer a:hover {
   text-decoration: none;
+  
+  color: #333;
 }
 #twitter {
   position    : absolute;
