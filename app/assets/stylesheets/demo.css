@@ -103,7 +103,7 @@ a{
 }
 /* Header Style */
 .codrops-top{
-  font-family       : Arial, sans-serif;
+  font-family       : K, sans-serif;
   line-height       : 24px;
   font-size         : 11px;
   width             : 100%;
@@ -112,9 +112,9 @@ a{
   text-transform    : uppercase;
   z-index           : 9999;
   position          : relative;
-  -moz-box-shadow   : 1px 0px 2px #000;
-  -webkit-box-shadow: 1px 0px 2px #000;
-  box-shadow        : 1px 0px 2px #000;
+  -moz-box-shadow   : 1px 0px 1px #000;
+  -webkit-box-shadow: 1px 0px 1px #000;
+  box-shadow        : 1px 0px 1px #000;
 }
 .codrops-top a{
   padding       : 0px 5px;
@@ -142,17 +142,18 @@ p.codrops-demos a,
 p.codrops-demos a.current-demo,
 p.codrops-demos a.current-demo:hover{
     display              : inline-block;
-    padding              : 10px;
-    font-size            : 13px;
+/*    padding              : 3px;*/
+    font-size            : 1.1em;
     line-height          : 18px;
-    margin               : 2px 3px;
+    margin               : 5px;
     font-weight          : 800;
     color                : #fff;
-    -webkit-border-radius: 5px;
-    -moz-border-radius   : 5px;
+/*    -webkit-border-radius: 5px;
+    -moz-border-radius   : 5px;*/
     }
 p.codrops-demos a:hover{
-  background: #f9caca;
+
+  color: #f9caca;
 }
 p.codrops-demos a:active{
 /*  background        : green;
