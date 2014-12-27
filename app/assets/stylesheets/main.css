@@ -49,16 +49,49 @@ body {
 .footer a:hover {
   text-decoration: none;
 }
-#social {
+#twitter {
+  position    : absolute;
+  text-align  : right;
+  bottom      : 0;
+  right       : 0;
+  margin      : 1.3em;
+  margin-right: 9.1em;
+  opacity: 0.2;
+}
+#twitter:hover {
+  opacity: 0.6;
+}
+#facebook {
+  position: absolute;
+  bottom: 0;
+  right : 0;
+  margin: 1.3em;
+  margin-right: 6.7em;
+  opacity: 0.2;
+}
+#facebook:hover {
+  opacity: 0.6;
+}
+#pinterest {
   position    : absolute;
   text-align  : right;
   bottom      : 0;
   right       : 0;
   margin      : 1.3em;
   margin-right: 2em;
-  opacity: 0.3;
+  opacity: 0.2;
 }
-#social:hover {
+#pinterest:hover {
+  opacity: 0.6;
+}
+#instagram {
+  position: absolute;
+  bottom: 0;
+  right : 3em;
+  margin: 1.3em;
+  opacity: 0.2;
+}
+#instagram:hover {
   opacity: 0.6;
 }
 
