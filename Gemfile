@@ -1,3 +1,5 @@
+ruby '2.1.3'
+
 source 'https://code.stripe.com'
 source 'https://rubygems.org'
 
