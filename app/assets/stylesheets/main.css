@@ -4,3 +4,27 @@ body {
   background-color: #edeaea;
   font-family     : 'Lato', sans-serif;
 }
+.navbar-header {
+  background-color: rgba(0,0,0,0);
+ 
+}
+#bs-example-navbar-collapse-1{
+ background-color: rgba(0,0,0,0);
+}
+.navbar {
+background-color: rgba(0,0,0,0);
+}
+.container-fluid {
+  background-color: rgba(0,0,0,0);
+}
+.container-fluid.collapse.navbar-collapse {
+  background-color: rgba(0,0,0,0);
+
+}
+.nav {
+  background-color: rgba(0,0,0,0);
+}
+.navbar.navbar-default{
+  background-color: rgba(0,0,0,0);
+  border-style: none;
+}

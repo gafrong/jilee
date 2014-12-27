@@ -1,7 +1,7 @@
-ruby '2.1.3'
-
 source 'https://code.stripe.com'
 source 'https://rubygems.org'
+
+ruby '2.1.3'
 
 gem 'rails', '4.1.8'
 gem 'sass-rails', '~> 4.0.3'
