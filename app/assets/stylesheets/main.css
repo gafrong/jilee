@@ -10,6 +10,7 @@ body {
 }
 #bs-example-navbar-collapse-1{
  background-color: rgba(0,0,0,0);
+ text-align: right;
 }
 .navbar {
 background-color: rgba(0,0,0,0);
@@ -27,4 +28,7 @@ background-color: rgba(0,0,0,0);
 .navbar.navbar-default{
   background-color: rgba(0,0,0,0);
   border-style: none;
+}
+.navbar-collapse.collapse.in {
+  text-align: right;
 }
