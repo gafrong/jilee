@@ -102,6 +102,7 @@ body {
 
 /*about page*/
 #portrait {
+  margin-top: 2em;
   width             : 180px;
   border-radius     : 50%;
   box-shadow        : 2px 2px 2px #999;
@@ -120,13 +121,13 @@ body {
 
 /* portfolio page */
 body.portfolio {
-  background-color: #a5d6a7;
+  background-color: #b0b3c5;
   color: #fff;
 }
 
 /* contact page */
 body.contact {
-  background-color: #b0b3c5;
+  background-color: #a5d6a7;
   color: #fff;
 }
 body.contact h4 {
@@ -139,8 +140,21 @@ body.contact p {
   margin-top: 1em;
 /*  color: #777;*/
 }
-
-
+#contact-title {
+  margin-top: 7em;
+}
+/* portfolio page */
+.port-image {
+  width        : 140px;
+  border-radius: 50%;
+  transition   : 0.5s;
+  margin       : 1em;
+}
+.port-image:hover {
+  opacity           : 0.5;
+  transition        : opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+}
 
 
 
