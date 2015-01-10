@@ -51,10 +51,6 @@ body {
   text-decoration: none; 
   color: #333;
 }
-.page-title {
-  margin-top: 7em;
-  color: #777;
-}
 .font-color {
   color: #777;
 }
@@ -122,11 +118,27 @@ body {
   margin: 2em;
 }
 
+/* portfolio page */
+body.portfolio {
+  background-color: #a5d6a7;
+  color: #fff;
+}
 
-
-
-
-
+/* contact page */
+body.contact {
+  background-color: #b0b3c5;
+  color: #fff;
+}
+body.contact h4 {
+  color: #fff;
+}
+body.contact p {
+  color: #fff;
+}
+.page-title {
+  margin-top: 1em;
+/*  color: #777;*/
+}
 
 
 
