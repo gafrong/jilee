@@ -48,9 +48,15 @@ body {
   font-style: normal;
 }
 .footer a:hover {
-  text-decoration: none;
-  
+  text-decoration: none; 
   color: #333;
+}
+.page-title {
+  margin-top: 7em;
+  color: #777;
+}
+.font-color {
+  color: #777;
 }
 #twitter {
   position    : absolute;
