@@ -351,8 +351,8 @@
     opacity: 1;
 }
 @media screen and (min-width: 601px) { 
-    .cb-slideshow li div h3 { font-size: 60px }
+    .cb-slideshow li div h3 { font-size: 40px }
 }
 @media screen and (max-width: 600px) { 
-    .cb-slideshow li div h3 { font-size: 30px }
+    .cb-slideshow li div h3 { font-size: 20px }
 }
