@@ -98,9 +98,17 @@ body {
   opacity: 0.6;
 }
 
-
-
-
+/*about page*/
+#portrait {
+  width: 180px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px #999;
+}
+#about-description {
+  color: #777;
+  margin: 2em;
+/*  text-align: left;*/
+}
 
 
 
