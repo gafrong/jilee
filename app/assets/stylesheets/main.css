@@ -55,7 +55,7 @@ body {
   color: #777;
 }
 #twitter {
-  position    : absolute;
+  position    : fixed;
   text-align  : right;
   bottom      : 0;
   right       : 0;
@@ -67,7 +67,7 @@ body {
   opacity: 0.6;
 }
 #facebook {
-  position    : absolute;
+  position    : fixed;
   bottom      : 0;
   right       : 0;
   margin      : 1.3em;
@@ -78,7 +78,7 @@ body {
   opacity: 0.6;
 }
 #pinterest {
-  position    : absolute;
+  position    : fixed;
   text-align  : right;
   bottom      : 0;
   right       : 0;
@@ -90,7 +90,7 @@ body {
   opacity: 0.6;
 }
 #instagram {
-  position: absolute;
+  position: fixed;
   bottom  : 0;
   right   : 3em;
   margin  : 1.3em;
@@ -124,6 +124,22 @@ body.portfolio {
   background-color: #b0b3c5;
   color: #fff;
 }
+#advisr img {
+  width: 250px;
+  padding: 1em;
+}
+#bloq img {
+  width: 250px;
+  padding: 1em;
+}
+#clvt img {
+  width: 250px;
+  padding: 1em;
+}
+.space {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
 /* contact page */
 body.contact {
@@ -149,12 +165,17 @@ body.contact p {
   border-radius: 50%;
   transition   : 0.5s;
   margin       : 1em;
+  margin-bottom: 2em;
 }
 .port-image:hover {
   opacity           : 0.5;
   transition        : opacity 0.5s;
   -webkit-transition: opacity 0.5s;
 }
+.space p {
+  margin-bottom: 4em;
+}
+
 
 
 
