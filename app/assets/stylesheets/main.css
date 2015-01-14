@@ -60,7 +60,7 @@ body {
   bottom      : 0;
   right       : 0;
   margin      : 1.3em;
-  margin-right: 9.1em;
+  margin-right: 2em;
   opacity: 0.2;
 }
 #twitter:hover {
@@ -71,22 +71,22 @@ body {
   bottom      : 0;
   right       : 0;
   margin      : 1.3em;
-  margin-right: 6.7em;
+  margin-right: 2em;
   opacity     : 0.2;
 }
 #facebook:hover {
   opacity: 0.6;
 }
-#pinterest {
+#github {
   position    : fixed;
   text-align  : right;
   bottom      : 0;
   right       : 0;
   margin      : 1.3em;
-  margin-right: 2em;
+  margin-right: 6.7em;
   opacity: 0.2;
 }
-#pinterest:hover {
+#github:hover {
   opacity: 0.6;
 }
 #instagram {
