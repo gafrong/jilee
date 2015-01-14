@@ -60,7 +60,7 @@ body {
   bottom      : 0;
   right       : 0;
   margin      : 1.3em;
-  margin-right: 2em;
+  margin-right: 1.8em;
   opacity: 0.2;
 }
 #twitter:hover {
@@ -83,7 +83,7 @@ body {
   bottom      : 0;
   right       : 0;
   margin      : 1.3em;
-  margin-right: 6.7em;
+  margin-right: 6.8em;
   opacity: 0.2;
 }
 #github:hover {
