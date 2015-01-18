@@ -121,7 +121,7 @@ body {
 
 /* portfolio page */
 body.portfolio {
-  background-color: #b0b3c5;
+  background-color: #ffc400;
   color: #fff;
 }
 #advisr img {
@@ -184,7 +184,9 @@ body.contact p {
 #subheading {
   color: #555;
 }
-
+#trial {
+  color: #fff;
+}
 
 
 
