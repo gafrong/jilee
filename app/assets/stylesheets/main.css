@@ -121,8 +121,8 @@ body {
 
 /* portfolio page */
 body.portfolio {
-  background-color: #00bcd4;
-  color: #fff;
+  background-color: #ededed;
+  color: #555;
 }
 #advisr img {
   width: 250px;
@@ -185,7 +185,8 @@ body.contact p {
   color: #555;
 }
 #trial {
-  color: #fff;
+  color: #999;
+  font-size: 0.9em;
 }
 
 
