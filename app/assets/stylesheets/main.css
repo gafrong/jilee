@@ -178,7 +178,7 @@ body.contact p {
   -webkit-transition: opacity 0.5s;
 }
 .space p {
-  margin-bottom: 4em;
+  margin-bottom: 1em;
 }
 
 #subheading {
@@ -188,7 +188,29 @@ body.contact p {
   color: #999;
   font-size: 0.9em;
 }
-
-
+.git {
+  opacity      : 0.8;
+  margin-bottom: 1em;
+  margin-right : 1em;
+}
+.git:hover {
+  opacity: 0.4;
+}
+.view {
+  opacity      : 0.8;
+  margin-bottom: 1em;
+  margin-right : 1em;
+}
+.view:hover {
+  opacity: 0.4;
+}
+.showsite {
+  opacity      : 0.8;
+  margin-bottom: 1em;
+  margin-right : 1em;
+}
+.showsite:hover {
+  opacity: 0.4;
+}
 
 
