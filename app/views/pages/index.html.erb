@@ -1,31 +1,252 @@
 
-<ul class="cb-slideshow">
-    <li><span></span><div><h3>Hi, I'm Ji</h3></div></li>
-    <li><span></span><div><h3></h3></div></li>
-    <li><span></span><div><h3></h3></div></li>
-    <li><span></span><div><h3></h3></div></li>
-    <li><span></span><div><h3></h3></div></li>
-    <li><span></span><div><h3></h3></div></li>
-</ul>
-
-  <!-- Codrops top bar -->
-  <div class="codrops-top">
-
-  </div><!--/ Codrops top bar -->
-  <header>
-
-    <%= render 'navbar' %>
+<!--   <body data-spy="scroll" data-offset="80"> -->
+    <section id="home" data-stellar-background-ratio="0.5">
+      <div class="parallax-overlay"></div> 
+      <div class="home-content text-center">
+        <div class="container">
+          <div class="main-flex-slider">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1">
+                <h1>Ji Lee</h1>
+                <p class="lead">Full Stack Ruby on Rails developer based in Melbourne.</p>
+              </div>
+            </div>
+          </div> 
+            <div class="home-link-btn text-center">
+              <p class="scrollto"><a href="#demos" class="btn btn-lg btn-dark">Portfolio </a></p>
+            </div>
+        </div>
+      </div>
+    </section><!--home section end-->
     
-  </header>
+    <section id="navigation">
+        <div class="navbar navbar-default navbar-static-top " role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand scrollto" href="#home"><%= image_tag 'portrait.png', id: "small-portrait"%>
+                      
+                </div>
+                <div class="navbar-collapse collapse">
 
-  
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                    <ul class="nav navbar-nav navbar-right scrollto">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#features">technology</a></li>
+                        <li><a href="#demos">Portfolio</a></li>
+                    </ul>
 
-  ga('create', 'UA-58426260-1', 'auto');
-  ga('send', 'pageview');
+                </div><!--/.nav-collapse -->
+            </div><!--/.container -->
+        </div><!--navbar-default-->
+    </section>
+    <div class="divided-50"></div>
 
-</script>  
+    <section id="about" class="section-padding">
+          <div class="container">
+              <div class="center-heading">
+                  <h1>About</h1>
+                  <span class="center-line"></span>
+              </div>
+              <div class="row">
+                  <div class="col-md-8">
+                      <div class="quick-desc">
+                          <h3>Full Stack Developer</h3>
+                          <p>
+                            A freelance full stack Ruby on Rails developer based in Melbourne. I use Angular JS and Backbone.js to make front-end sexy, and allow Rails to do most of the back-end talking. I also use usual suspects such as Git, Heroku, Bootstrap to get things cooking, and things like Gulp and Bourbon add a bit of spice to my ingredients. When I'm not punching keys on my laptop, I'm out in the water paddle boarding with my dog or mocking around with Ableton Live and CDJs to keep my creative juice flowing. 
+                          </p>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div id="portrait-canvas">
+                          
+                          <%= image_tag 'portrait.png', class: "img-responsive wow animated fadeInUp center", id: "self" %>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section><!--about quick end-->
+      <section id="features" class="section-padding">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-12">
+                      <div class="center-heading">
+                          <h1><span class="colored-text">Technology</span> of Choice</h1>
+                          <span class="center-line"></span>
+                      </div>
+                  </div>
+              </div><!--center-heading end-->
+
+              <div class="row">
+                  <div class="col-md-4 wow animated fadeInLeft">
+                    
+                      <div class="features-box  margin-btm-30">
+                          <%= image_tag 'icon-ruby.png', class: "tech-icon" %>
+                          <div class="features-text">
+                              <h4>Ruby on Rails</h4>
+                              <p>Full stack development using robust MVC framework of Ruby on Rails. Simple apps can go from zero to deployment in matter of minutes.</p>
+                          </div>
+                      </div>
+                      <div class="features-box  margin-btm-30">
+                          <%= image_tag 'icon-angular.png', class: "tech-icon" %>
+                          <div class="features-text">
+                              <h4>Angular JS</h4>
+                              <p>Buliding single-page application using open-source framework maintained by Google enables to create software more quickly and with less effort.</p>
+                          </div>
+                      </div>
+                      <div class="features-box  margin-btm-30">
+                          <%= image_tag 'js-icon.png', class: "tech-icon" %>
+                          <div class="features-text">
+                              <h4>Javascript</h4>
+                              <p>The fundamental of object-oriented programming language allows to create web pages interactive and dynamic.</p>
+                          </div>
+                      </div>
+                      <div class="features-box  margin-btm-30">
+                          <i class="fa fa-twitter"></i>
+                          <div class="features-text">
+                              <h4>bootstrap</h4>
+                              <p>Popular HTML, CSS and JS framework to develop responsive, mobile first, and professional looking front-end web development quickly.</p>
+                          </div>
+                      </div>
+                      <div class="features-box  margin-btm-30">
+                          <%= image_tag 'icon-jquery.png', class: "tech-icon" %>
+                          <div class="features-text">
+                              <h4>jQuery</h4>
+                              <p>Quick and easy implementation for development, and brings web pages to be more exciting, clean, and user friendly.</p>
+                          </div>
+                      </div><!--features box-->
+                  </div><!--features left col end-->
+                  <div class="col-md-4 margin-btm-30">
+                      <%= image_tag 'ipad.png', class: "img-responsive ipad-mockup wow animated fadeInUp" %>
+                  </div><!--images mockup end-->
+                  <div class="col-md-4 wow animated fadeInLeft">
+                      <div class="features-box left  margin-btm-30">
+                          <i class="fa fa-github"></i>
+                          <div class="features-text ">
+                              <h4>Git</h4>
+                              <p>Git makes life easy for everyone. Allows to collaborate with team members with clarity.</p>
+                          </div>
+                      </div><!--features box-->
+                      <div class="features-box left margin-btm-30">
+                          <i class="fa fa-database"></i>
+                          <div class="features-text ">
+                              <h4>PostgreSQL</h4>
+                              <p>Reliable, stable, and extensible. PostgreSQL is designed for high volume environments with immunity to over-deployment and low maintenance.</p>
+                          </div>
+                      </div><!--features box-->
+                      <div class="features-box left margin-btm-30">
+                          <%= image_tag 'icon-backbone.png', class: "tech-icon-left" %>
+                          <div class="features-text ">
+                              <h4>Backbone.js</h4>
+                              <p>Incredibly small library for a big functionality and structure enforcing communication to the server through RESTful API.</p>
+                          </div>
+                      </div><!--features box-->
+                      <div class="features-box left  margin-btm-30">
+                          <i class="fa fa-html5"></i>
+                          <div class="features-text ">
+                              <h4>HTML5 / CSS3</h4>
+                              <p>Solid fundamental structuring and styling, using the basic necessary skills in web development.</p>
+                          </div>
+                      </div><!--features box-->
+                      <div class="features-box left margin-btm-30">
+                          <i class="fa fa-arrows-alt"></i>
+                          <div class="features-text ">
+                              <h4>And much more....</h4>
+                              <p>I also use Underscore.js, Gulp, Node.js, SCSS, JSON, AWS, and many more to get the project up and running with ease. </p>
+                          </div>
+                      </div><!--features box-->
+                  </div>
+              </div>
+          </div>
+      </section><!--key features end-->
+
+      <section id="demos" class="section-padding">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                      <div class="center-heading">
+                          <h1>Portfolio</h1>
+                          <p class="lead">Recent Projects</p>
+                          <span class="center-line"></span>
+                      </div>
+                  </div>
+              </div><!--center-heading end-->
+              <div class="row">
+                  <div class="col-md-3 col-sm-6 wow animated fadeInUp">
+                      <a href="http://clovet.herokuapp.com" target="_blank">
+                          <div class="demo-wrap">
+                              <span class="demo-label">demo #1 </span>
+                              <%= image_tag 'clovet.png', class: "img-responsive" %>
+
+                             <!--  <img src="img/clovet.png" class="img-responsive" alt=""> -->
+                              <h4>Front-end Javascript</h4>
+
+                              <div class="demo-hover col-sm-6">
+                                  <p>View demo</p>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-md-3 col-sm-6 wow animated fadeInUp">
+                      <a href="http://bloq.herokuapp.com" target="_blank">
+                          <div class="demo-wrap">
+                              <span class="demo-label">demo #2 </span>
+                              <%= image_tag 'bloq.png', class: "img-responsive" %>
+
+                          <!--     <img src="img/bloq.png" class="img-responsive" alt=""> -->
+                              <h4>Full Stack Angular JS & Rails</h4>
+
+                              <div class="demo-hover">
+                                  <p>View demo</p>
+                              </div> 
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-md-3 col-sm-6 wow animated fadeInUp">
+                      <a href="http://advisr.herokuapp.com" target="_blank">
+                          <div class="demo-wrap">
+                              <span class="demo-label">demo #3 </span>
+                              <%= image_tag 'advisr.png', class: "img-responsive" %>
+
+    
+
+                              <div class="demo-hover">
+                                  <p>View demo</p>
+                              </div> 
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-md-3 col-sm-6 wow animated fadeInUp">
+                      <a href="http://saja.herokuapp.com" target="_blank">
+                          <div class="demo-wrap">
+                              <span class="demo-label">demo #4 </span>
+                              <%= image_tag 'saja.png', class: "img-responsive" %>
+                            <!--   <img src="images/saja.png" class="img-responsive" alt=""> -->
+                              <h4>Front-end Landing Page</h4>
+
+                              <div class="demo-hover">
+                                  <p>View demo</p>
+                              </div> 
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </section><!--demo-section end-->
+
+
+
+      <footer id="footer">
+          <div class="container text-center">
+              <span><em>Produced</em> by Ji Lee</span>
+          </div>
+      </footer>
+
+      
+
+
