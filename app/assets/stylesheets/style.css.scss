@@ -344,7 +344,7 @@ h2.slide-btm-text{
 }
 
 
-/******************featurs box*******************/
+/******************features box*******************/
 .features-box i{
     float: right;
     margin-left: 20px;
@@ -376,6 +376,10 @@ h2.slide-btm-text{
 .features-box.left .features-text{
     text-align: left;
 }
+.features-box.center {
+    text-align: center;
+    margin: 0 auto;
+}
 .features-box img.tech-icon {
     float: right;
     margin-left: 20px;
@@ -386,6 +390,15 @@ h2.slide-btm-text{
     margin-left: 1.2em;
 }
 
+.boxcenter i{
+    text-align: center;
+    margin: 0.3em 0em 1em 0em;
+    font-size: 30px;
+    color:#25CBF5;
+}
+.boxcenter i.margin-right {
+    margin-right: 2em;
+}
 .ipad-mockup{
     margin: 30px auto;
 }
@@ -482,6 +495,7 @@ h2.slide-btm-text{
 }
 .center {
     text-align: center;
+
 }
 .center img {
     text-align: center;
